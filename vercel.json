@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "name": "encourse",
+    "builds": [{"src": "server.js", "use": "@vercel/node"}],
+    "routes": [{"src": "/(.*)", "dest": "/server.js"}],
+        "rewrites":  [
+          {"source": "/(.*)", "destination": "/"}
+        ]
+}
