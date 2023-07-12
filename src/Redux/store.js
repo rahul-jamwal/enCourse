@@ -4,7 +4,7 @@ import { courseReducer } from './reducers/courseReducer.js';
 import { otherReducer } from './reducers/otherReducer.js';
 import { profileReducer, subscriptionReducer, userReducer } from './reducers/userReducer.js'
 
-export const server = 'http://localhost:4000/api/v1'
+export const server = 'https://en-course-server.vercel.app/api/v1'
 
 const store = configureStore({
     reducer: {
